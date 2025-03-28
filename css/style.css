@@ -140,17 +140,21 @@ main {
 /* Ajuste para tablet */
 @media (max-width: 768px) {
     #banner {
-        height: 20vh; 
+        height: 20vh;
     }
 }
-/* Ajuste para celular */
-@media (max-width: 390px) {
+
+@media (max-width: 600px) {
     #banner {
-        height: 10vh; 
+        height: 15vh;
     }
 }
 
-
+@media (max-width: 430px) {
+    #banner {
+        height: 10vh;
+    }
+}
 
 .productos-container {
     display: flex;
