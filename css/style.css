@@ -16,6 +16,11 @@ img {
   max-width: 250px;
 }
 
+video {
+  width: 90%;
+  max-width: 250px;
+}
+
 .navbar {
   background: #0a2a66 !important;
 }
@@ -91,6 +96,11 @@ footer {
   align-items: center;
   flex-direction: row;
 }
+#inicio .titulo-principal {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
 
 #items p {
   border: 2px solid #333;
@@ -161,6 +171,21 @@ footer {
 .container .producto {
   flex: 1;
   max-width: 300px;
+}
+
+.contenido-novedad {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.media-novedad {
+  max-width: 90%;
+  width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 1024px) {

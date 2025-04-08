@@ -52,6 +52,11 @@ img {
   max-width: 250px;
 }
 
+video {
+  width: 90%;
+  max-width: 250px;
+}
+
 // navbar
 .navbar {
   background: $primary-color !important;
@@ -141,7 +146,7 @@ footer {
   }
 }
 
-// Items 
+// Items
 #items {
   p {
     border: 2px solid $text-color;
