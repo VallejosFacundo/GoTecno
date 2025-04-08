@@ -1,0 +1,20 @@
+{
+  "name": "segundapreentrega",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VallejosFacundo/GoTecno.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VallejosFacundo/GoTecno/issues"
+  },
+  "homepage": "https://github.com/VallejosFacundo/GoTecno#readme",
+  "description": ""
+}
