@@ -47,7 +47,7 @@ main {
 
 
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
@@ -74,6 +74,9 @@ video {
   background: $primary-color !important;
 
   .navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
     .nav-link {
       color: white !important;
       transition: background-color 0.3s ease;
@@ -187,6 +190,7 @@ footer {
   gap: 20px;
   margin: 20px 0;
   justify-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .producto-card {
@@ -197,7 +201,6 @@ footer {
   width: 250px;
   transition: transform 0.2s;
   @include card-style(10px, 0 4px 10px rgba(0, 0, 0, 0.1));
-
 }
 
 .producto-imagen {
@@ -266,6 +269,7 @@ footer {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: #1a237e;
+    font-family: "Roboto";
   }
 
   p {
@@ -288,6 +292,7 @@ footer {
 
   strong {
     font-weight: 600;
+    font-family: "Roboto";
   }
 }
 
@@ -320,6 +325,8 @@ footer {
       border-radius: 4px;
   }
 }
+
+
 
 
 //media queries
